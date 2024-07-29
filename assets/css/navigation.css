@@ -1,0 +1,25 @@
+.navigation {
+padding-top: 2rem;
+}
+.navigation-list {
+  display: flex;
+justify-content: space-around;
+
+  font-family: "mulish";
+font-size: 1.5rem;
+  font-weight: bold;
+  color: #414141;
+
+}
+.navigation-list-item {
+}
+.link-navigation-list-item {
+}
+
+
+@media screen and (min-width:1024) {
+  .navigation{
+    display: inherit;
+  }
+  
+}
