@@ -7,7 +7,9 @@
   --warm-grey: #9d9d9d;
   --dark: #243246; */
 
-
+*{
+  box-sizing: border-box;
+}
 :root{
   --trojan-pro-3:"Trajan-pro-3-regular";
 --color-green:rgb(101, 196, 102);
@@ -25,6 +27,7 @@ font-family: "mulish";
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis; }
+  
   .uppercase{
     text-transform: uppercase;
   }
