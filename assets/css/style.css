@@ -17,8 +17,9 @@
 font-size: 13px;
 font-family: "mulish";
 }
+
 .wrapper-page{
-  padding: 0.5rem 1rem 0;
+  padding: 0.5rem 1.5rem ;
 }
 .hiden{
   display: none;
@@ -30,6 +31,15 @@ font-family: "mulish";
   
   .uppercase{
     text-transform: uppercase;
+  }
+
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-align-left{
+    text-align: left;
   }
 
 

@@ -1,0 +1,102 @@
+.main-section {
+  padding-top: 2rem;
+}
+.header-main-section {
+  font-size: 1.5rem;
+  line-height: normal;
+  font-family: var(--trojan-pro-3);
+  color: var(--color-green);
+}
+.intro-text-main-section {
+  margin-top: 1.5rem;
+  line-height: normal;
+}
+.image-main-section {
+  max-width: 240px;
+  max-height: 245px;
+}
+.form-main-section {
+}
+.wrapper-main-form {
+  width: 300px;
+  min-width: 200px;
+}
+
+.form-main-section > input::placeholder {
+  color: #c2c2c2;
+  font-family: "mulish";
+  font-size: 0.9rem;
+}
+.wrapper-main-submit {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-main-section > textarea::placeholder {
+  color: #c2c2c2;
+  font-family: "mulish";
+  font-size: 0.9rem;
+}
+
+.form-main-section > :nth-child(1) {
+  width: 280px;
+  height: 35px;
+  padding-left: 10px;
+
+  border-radius: 4px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border: solid 0.8px rgb(204, 204, 204);
+}
+
+.form-main-section > :nth-child(2) {
+  width: 280px;
+  height: 90px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  resize: none;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border: solid 0.8px rgb(204, 204, 204);
+  border-radius: 4px;
+}
+
+.form-main-section > div > :nth-child(1) {
+  position: relative;
+  width: 150px;
+  padding-left: 5px;
+  font-size: 0.7rem;
+  text-align: left;
+  color: #a3a3a3;
+  cursor: pointer;
+}
+input.main-checkbox {
+  width: 8px;
+  height: 8px;
+
+  text-align: left;
+
+  position: absolute;
+  top: 10px;
+
+  left: -15px;
+}
+
+.main-submit {
+  width: 100px;
+  min-width: 100px;
+  font-family: inherit;
+  font-style: italic;
+  font-size: x-large;
+  color: white;
+  font-size: 0.6rem;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 2.8px;
+  box-shadow: 0 2.2px 8.3px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--color-green);
+}
+
+.wrapper-img-main-section {
+  margin: 2rem auto;
+  width: 80%;
+}

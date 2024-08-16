@@ -142,13 +142,56 @@
           </svg>
         </ul>
       </nav>
-      <section class="main-section">
-        <h1>Задайте вопрос юристу онлайн</h1>
-        <p>
-          Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.
+      <section class="main-section column">
+        <h1 class="header-main-section text-align-left uppercase">
+          Задайте вопрос юристу онлайн
+        </h1>
+        <p class="intro-text-main-section text-align-left">
+          Компания специализируется на оказании широкого спектра услуг как для
+          корпоративных клиентов так и для частных лиц. Профессионализм и
+          ответственность ключевые преимущества нашей компании.
         </p>
-        <img src="" alt="">
-        <form action=""></form>
+        <div class="wrapper-img-main-section">
+          <picture>
+            <source
+              srcset="./assets/images/main-section-images/Themis-big.png"
+              media="(min-width: 1920px)" />
+
+            <img
+              src="./assets/images/main-section-images/Themis-small.png"
+              alt=""
+              class="image-main-section"
+          /></picture>
+        </div>
+        <div class="wrapper-main-form">
+          <form action="" method="POST" class="form-main-section">
+            <input
+              type="tel"
+              required
+              placeholder="Введите номер Вашего телефона"
+              class="question-form-small"
+            />
+            <textarea
+              name="question"
+              rows="5"
+              cols="50"
+              placeholder="Введите ваш вопрос здесь..."
+            ></textarea>
+            <div class="wrapper-main-submit">
+              <label >
+                <input class="main-checkbox"
+                  type="checkbox"
+                  name="Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности"
+                  value="yes"
+                />
+
+                Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+                конфидециальности</label
+              >
+              <input type="submit" value="Отправить вопрос"  class="main-submit"/>
+            </div>
+          </form>
+        </div>
       </section>
     </div>
   </body>
