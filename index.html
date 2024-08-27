@@ -143,9 +143,19 @@
         </ul>
       </nav>
       <section class="main-section column">
-        <h1 class="header-main-section text-align-left uppercase">
-          Задайте вопрос юристу онлайн
-        </h1>
+        <div class="wrapper-mainhead-icononline">
+          <h1 class="header-main-section text-align-left uppercase">
+            Задайте вопрос юристу онлайн
+          </h1>
+          <div class="wrapper-main-online-users hiden" >
+            <img
+              class="main-online-users"
+              src="./assets/images/main-section-images/icon-onlain-small.png"
+              alt=""
+            />
+            <p class="main-user-count">30 оналайн</p>
+          </div>
+        </div>
         <p class="intro-text-main-section text-align-left">
           Компания специализируется на оказании широкого спектра услуг как для
           корпоративных клиентов так и для частных лиц. Профессионализм и
@@ -172,14 +182,16 @@
               class="question-form-small"
             />
             <textarea
+              class="question-form-big"
               name="question"
               rows="5"
               cols="50"
               placeholder="Введите ваш вопрос здесь..."
             ></textarea>
             <div class="wrapper-main-submit">
-              <label >
-                <input class="main-checkbox"
+              <label>
+                <input
+                  class="main-checkbox"
                   type="checkbox"
                   name="Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности"
                   value="yes"
@@ -188,7 +200,11 @@
                 Нажимая кнопку “Отправить” вы соглашаетесь с политикой
                 конфидециальности</label
               >
-              <input type="submit" value="Отправить вопрос"  class="main-submit"/>
+              <input
+                type="submit"
+                value="Отправить вопрос"
+                class="main-submit"
+              />
             </div>
           </form>
         </div>
