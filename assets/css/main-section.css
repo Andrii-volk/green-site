@@ -13,8 +13,8 @@
   line-height: normal;
 }
 .image-main-section {
-  width: 240px;
-  height: 245px;
+  width: 250px;
+  height: 260px;
 }
 
 .wrapper-main-form {
@@ -189,6 +189,6 @@ input.main-checkbox {
   font-weight: 200;
 }
 .image-main-section{
-  width: 300px;
-  height: 305px;
+  /* width: 300px;
+  height: 305px; */
 }

@@ -42,6 +42,10 @@ font-family: "mulish";
     text-align: left;
   }
 
+  /* .bg-green{
+    background: var(--color-green);
+  } */
+
 
   @media screen and (min-width:1336px){
     :root{

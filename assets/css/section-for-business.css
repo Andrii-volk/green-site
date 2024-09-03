@@ -1,10 +1,71 @@
 .section-for-business {
+  /* position: relative; */
+  width: 100%;
+  padding-top: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 4px;
+  /* height: ; */
+  background-image: url(../images/section-for-bisnes-images/or-bisnes-big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrapper-for-discription-section-for-bisnes {
+padding: 1rem;
+border-radius: 7px;
+  background-color: white;
 }
 .header-sectio-for-bisnes {
+  font-family: var(--trojan-pro-3);
+  font-size: 1.4rem;
+  line-height: normal;
+  color: var(--color-green);
 }
 .discrioption-section-for-bisnes {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  line-height: normal;
 }
 .btn-call-section-for-bisnes {
+      min-width: 100px;
+    font-family: inherit;
+    font-style: italic;
+        font-weight: 200;
+
+    /* font-size: x-large; */
+    color: white;
+    /* font-size: 0.6rem; */
+    padding: 8px 18px;
+    border: none;
+    border-radius: 2.8px;
+    box-shadow: 0 2.2px 8.3px 0 rgba(0, 0, 0, 0.25);
+    background-color: var(--color-green);
+}
+
+.clip-path{
+  /* position: relative; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background-color: var(--color-green); */
+  /* opacity: 5%; */
+  /* z-index: 1; */
+
+/* clip-path: polygon(0 0, 38% 0, 79% 100%, 0% 100%); */
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+  .wrapper-for-discription-section-for-bisnes{
+    width: 35%;
+    /* background-color: aqua; */
+  }
+  .btn-call-section-for-bisnes {
+    width: 70%;
+  }
 }
