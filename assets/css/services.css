@@ -10,82 +10,126 @@
   line-height: normal;
   color: var(--color-green);
   /* font-size: 22px; */
-font-weight: 400;
-/* line-height: 26px; */
-letter-spacing: 0%;
-text-align: center;
+  font-weight: 500;
+  /* line-height: 26px; */
+  letter-spacing: 0%;
+  text-align: center;
 }
 .discription-section-service {
+  margin-bottom: 42px;
   color: rgb(65, 65, 65);
-font-family: Mulish;
-font-size: 13px;
-font-weight: 400;
-/* line-height: 16px; */
-letter-spacing: 0%;
-text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 400;
+  /* line-height: 16px; */
+  letter-spacing: 0%;
+  text-align: center;
   line-height: normal;
 }
 .renovation-services-provided {
   /* display: flex; */
-  width: 230px;
+  width: 210px;
   height: 320px;
   padding-top: 170px;
   padding-left: 6px;
   padding-right: 6px;
   margin: 28px auto;
   border-radius: 5px;
-  /* background-image: url(../images/services-provided-images/services-provided-small.png); */
-  /* box-shadow: 0; */
-  /* background-color: aqua; */
-  
+
   box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(180.00deg, rgb(65, 65, 65) -49.242%,rgba(65, 65, 65, 0) 120.346%),linear-gradient(0.00deg, rgb(101, 196, 102),rgba(37, 137, 249, 0) 23.16%),url(../images/services-provided-images/renovation-services-provided-small.png);
+  background: linear-gradient(
+      180deg,
+      rgb(65, 65, 65) -49.242%,
+      rgba(65, 65, 65, 0) 120.346%
+    ),
+    linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
+    url(../images/services-provided-images/renovation-services-provided-small.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.building-services-provided {
+  width: 170px;
+  height: 255px;
+  padding-top: 120px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 5px;
+
+  box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+      180deg,
+      rgb(65, 65, 65) -49.242%,
+      rgba(65, 65, 65, 0) 120.346%
+    ),
+    linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
+    url(../images/services-provided-images/services-provided-bilding-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.courses-services-provided {
+  width: 230px;
+  height: 320px;
+  padding-top: 170px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 5px;
+
+  box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+      180deg,
+      rgb(65, 65, 65) -49.242%,
+      rgba(65, 65, 65, 0) 120.346%
+    ),
+    linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
+    url(../images/services-provided-images/services-provided-courses-small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .header-services-provided {
   color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 17.63px;
-font-weight: 500;
-line-height: 21px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Roboto;
+  font-size: 17.63px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.discription-services-provided{
-  margin-top: 0.8rem;
-  margin-bottom: 40px;
+.discription-services-provided {
+  margin-top: 8px;
+  /* margin-bottom: 40px; */
   color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 11.17px;
-font-weight: 400;
-line-height: 13px;
-/* letter-spacing: 0%; */
-text-align: left;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  /* letter-spacing: 0%; */
+  text-align: left;
 }
 .btn-more-details {
   display: block;
   padding: 3px;
-  margin: 0 auto;
+  margin: 15px auto;
   width: 100px;
   min-width: 70px;
   max-width: 150px;
   color: white;
   /* color: rgb(255, 255, 255); */
-font-family: Roboto;
-font-size: 10.58px;
-font-weight: 400;
-line-height: 12px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Roboto;
+  font-size: 10.58px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .wrapper-scroll-indicator {
   text-align: center;
-
-
-
 }
 .scroll-indicator {
   display: inline-block;
@@ -94,9 +138,9 @@ text-align: center;
   height: 3px;
   border-radius: 1.66px;
 
-background: rgb(232, 226, 213);
+  background: rgb(232, 226, 213);
 }
-.bg-green{
+.bg-green {
   display: inline-block;
   width: 27px;
   height: 3px;
@@ -104,37 +148,79 @@ background: rgb(232, 226, 213);
   background: var(--color-green);
 }
 
-.wrapper-nav-arrow{
+.wrapper-nav-arrow {
   display: flex;
   justify-content: center;
-  margin-top: 36px; 
-  gap:30px;
+  margin-top: 36px;
+  gap: 30px;
 }
-.nav-arrow{
+.nav-arrow {
   padding: 0;
   height: 24.83px;
-    /* width: 24.83; */
-    border-radius: 27px;   }
- .nav-arrow{
+  /* width: 24.83; */
+  border-radius: 27px;
+}
+.nav-arrow {
   margin-left: 30px;
- }
+}
 
+.building-services-provided {
+  display: none;
+}
+.courses-services-provided {
+  display: none;
+}
 
+/* @media screen and (min-width: 1024px) */
 
- @media screen and (min-width:768px){
-  .wrapper-services-provided{
-    display: flex;
-    
-  }
-
-  
-    
-  
-  .hiden{
-    /* display: initial; */
-  }
-
-  .services-provided{
+@media screen and (min-width: 768px) {
+  .building-services-provided,
+  .courses-services-provided {
     display: inline-block;
+    width: 170px;
+    height: 260px;
   }
- }
+  .courses-services-provided {
+    /* display: inline-block; */
+  }
+
+  .renovation-services-provided {
+    width: 190px;
+    height: 276px;
+    margin: 0;
+    display: inline-block;
+
+    transform: translateY(-15px);
+    /* height: 350px;  */
+  }
+
+  .wrapper-service-provided {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0 20px;
+    margin-top: 3rem;
+    width: 60%;
+  }
+}
+
+.discription-services-provided {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  /* letter-spacing: 0%; */
+  text-align: left;
+}
+
+.header-services-provided {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 17.63px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+}
