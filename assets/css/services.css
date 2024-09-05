@@ -2,35 +2,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
   margin-top: 2rem;
 }
 .header-section-service {
+  margin-bottom: 1.4rem;
   font-family: var(--trojan-pro-3);
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   line-height: normal;
   color: var(--color-green);
-  /* font-size: 22px; */
   font-weight: 500;
-  /* line-height: 26px; */
   letter-spacing: 0%;
   text-align: center;
 }
 .discription-section-service {
-  margin-bottom: 42px;
+  margin-bottom: 40px;
   color: rgb(65, 65, 65);
   font-family: Mulish;
   font-size: 1rem;
   font-weight: 400;
-  /* line-height: 16px; */
   letter-spacing: 0%;
   text-align: center;
   line-height: normal;
 }
 .renovation-services-provided {
-  /* display: flex; */
   width: 210px;
+
   height: 320px;
-  padding-top: 170px;
+  padding-top: 180px;
   padding-left: 6px;
   padding-right: 6px;
   margin: 28px auto;
@@ -43,49 +42,7 @@
       rgba(65, 65, 65, 0) 120.346%
     ),
     linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
-    url(../images/services-provided-images/renovation-services-provided-small.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.building-services-provided {
-  width: 170px;
-  height: 255px;
-  padding-top: 120px;
-  padding-left: 6px;
-  padding-right: 6px;
-  border-radius: 5px;
-
-  box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(
-      180deg,
-      rgb(65, 65, 65) -49.242%,
-      rgba(65, 65, 65, 0) 120.346%
-    ),
-    linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
-    url(../images/services-provided-images/services-provided-bilding-small.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.courses-services-provided {
-  width: 230px;
-  height: 320px;
-  padding-top: 170px;
-  padding-left: 6px;
-  padding-right: 6px;
-  border-radius: 5px;
-
-  box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(
-      180deg,
-      rgb(65, 65, 65) -49.242%,
-      rgba(65, 65, 65, 0) 120.346%
-    ),
-    linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
-    url(../images/services-provided-images/services-provided-courses-small.png);
+    url(../images/services-provided-images/renovation-services-provided-big.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -102,13 +59,12 @@
 }
 .discription-services-provided {
   margin-top: 8px;
-  /* margin-bottom: 40px; */
+  margin-bottom: 40px;
   color: rgb(255, 255, 255);
   font-family: Roboto;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 400;
   line-height: 13px;
-  /* letter-spacing: 0%; */
   text-align: left;
 }
 .btn-more-details {
@@ -119,7 +75,6 @@
   min-width: 70px;
   max-width: 150px;
   color: white;
-  /* color: rgb(255, 255, 255); */
   font-family: Roboto;
   font-size: 10.58px;
   font-weight: 400;
@@ -157,7 +112,6 @@
 .nav-arrow {
   padding: 0;
   height: 24.83px;
-  /* width: 24.83; */
   border-radius: 27px;
 }
 .nav-arrow {
@@ -171,56 +125,100 @@
   display: none;
 }
 
-/* @media screen and (min-width: 1024px) */
 
 @media screen and (min-width: 768px) {
+  .section-service {
+    margin-top: 3.5rem;
+  }
+
+ 
+
+  .building-services-provided {
+    min-width: 170px;
+    height: 255px;
+    padding-top: 110px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+
+    box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(
+        180deg,
+        rgb(65, 65, 65) -49.242%,
+        rgba(65, 65, 65, 0) 120.346%
+      ),
+      linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
+      url(../images/services-provided-images/services-provided-bilding-big.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .courses-services-provided {
+    min-width: 170px;
+    height: 255px;
+    padding-top: 110px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+
+    box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(
+        180deg,
+        rgb(65, 65, 65) -49.242%,
+        rgba(65, 65, 65, 0) 120.346%
+      ),
+      linear-gradient(0deg, rgb(101, 196, 102), rgba(37, 137, 249, 0) 23.16%),
+      url(../images/services-provided-images/services-provided-courses-big.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .scroll-indicator {
+    margin-left: 9px;
+  }
+  .scroll-indicator,
+  .bg-green {
+    width: 35px;
+  }
+
   .building-services-provided,
   .courses-services-provided {
     display: inline-block;
     width: 170px;
     height: 260px;
   }
-  .courses-services-provided {
-    /* display: inline-block; */
-  }
+ 
 
   .renovation-services-provided {
-    width: 190px;
-    height: 276px;
+    padding-top: 150px;
+    min-width: 190px;
+    height: 300px;
     margin: 0;
     display: inline-block;
 
-    transform: translateY(-15px);
-    /* height: 350px;  */
+    transform: translateY(-40px);
   }
 
   .wrapper-service-provided {
     display: flex;
     justify-content: space-evenly;
-    gap: 0 20px;
+    gap: 0 50px;
     margin-top: 3rem;
-    width: 60%;
+    margin-bottom: 3rem;
+    /* width: 70%; */
   }
 }
 
 .discription-services-provided {
-  margin-top: 8px;
-  margin-bottom: 20px;
-  color: rgb(255, 255, 255);
-  font-family: Roboto;
   font-size: 10px;
-  font-weight: 400;
-  line-height: 13px;
-  /* letter-spacing: 0%; */
-  text-align: left;
 }
 
 .header-services-provided {
-  color: rgb(255, 255, 255);
-  font-family: Roboto;
-  font-size: 17.63px;
-  font-weight: 500;
-  line-height: 21px;
-  letter-spacing: 0%;
-  text-align: center;
+  font-size: 16px;
 }
+
+
+/* @media screen and (min-width: 1024px) */
+
