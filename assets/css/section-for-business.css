@@ -1,6 +1,7 @@
 .section-for-business {
-  /* position: relative; */
+  position: relative;
   width: 100%;
+  min-width: 250px;
   padding-top: 80px;
   padding-left: 25px;
   padding-right: 25px;
@@ -9,10 +10,16 @@
   border-radius: 4px;
   /* height: ; */
   background-image: url(../images/section-for-bisnes-images/or-bisnes-big.png);
+ background-color: rgba(101, 196, 102, 0.6);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .wrapper-for-discription-section-for-bisnes {
+  position: relative;
+  z-index: 3;
+  min-width: 200px;
+  width: 100%;
+  max-width: 450px;
 padding: 1rem;
 border-radius: 7px;
   background-color: white;
@@ -34,9 +41,7 @@ border-radius: 7px;
     font-style: italic;
         font-weight: 200;
 
-    /* font-size: x-large; */
     color: white;
-    /* font-size: 0.6rem; */
     padding: 8px 18px;
     border: none;
     border-radius: 2.8px;
@@ -45,14 +50,22 @@ border-radius: 7px;
 }
 
 .clip-path{
-  /* position: relative; */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* background-color: var(--color-green); */
-  /* opacity: 5%; */
-  /* z-index: 1; */
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-green);
+  opacity: 57%;
+  z-index: 1;
 
-/* clip-path: polygon(0 0, 38% 0, 79% 100%, 0% 100%); */
+ clip-path: polygon(0 0, 38% 0, 79% 100%, 0% 100%);
+
+
+  top: 0;
+  left: 0;
+ 
+  /* border-left: 300px solid rgba(0, 255, 0, 0.5); */
+   /* Полупрозрачный зелёный цвет */
+  /* border-bottom: 300px solid transparent; */
 
 }
 
@@ -62,10 +75,33 @@ border-radius: 7px;
 
 @media screen and (min-width:768px) {
   .wrapper-for-discription-section-for-bisnes{
-    width: 35%;
+    width: 45%;
     /* background-color: aqua; */
   }
   .btn-call-section-for-bisnes {
     width: 70%;
   }
+}
+
+@media screen and (min-width:1024px) {
+
+  .wrapper-for-discription-section-for-bisnes{
+    width: 35%;
+
+  }
+}
+
+@media screen and (min-width:1336px) {
+
+.wrapper-for-discription-section-for-bisnes{
+  width: 30%;
+}
+  
+}
+
+@media screen and (min-width:1920px) {
+.wrapper-for-discription-section-for-bisnes{
+  width: 30%;
+  max-width: 520px;
+}
 }
