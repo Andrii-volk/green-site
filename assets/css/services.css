@@ -1,4 +1,5 @@
-.section-service {
+.section-service { 
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +116,7 @@
   border-radius: 27px;
 }
 .nav-arrow {
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .building-services-provided {
@@ -131,7 +132,21 @@
     margin-top: 3.5rem;
   }
 
- 
+ .wrapper-nav-arrow{
+  
+    right: 0;
+    left: 0px;
+    bottom: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+ }
+.nav-arrow{
+  margin: 0;
+  align-self: flex-start;
+}
+
 
   .building-services-provided {
     min-width: 170px;
@@ -220,5 +235,9 @@
 }
 
 
-/* @media screen and (min-width: 1024px) */
+@media screen and (min-width: 1024px){
+  .wrapper-nav-arrow{
+    margin: 0 10%;
+  } 
+}
 
