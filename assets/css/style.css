@@ -1,4 +1,4 @@
-  /* --greyish-brown: #414141;
+/* --greyish-brown: #414141;
   --white: #fff;
   --pinkish-grey: #c2c2c2;
   --greyish: #a3a3a3;
@@ -7,60 +7,60 @@
   --warm-grey: #9d9d9d;
   --dark: #243246; */
 
-*{
+* {
   box-sizing: border-box;
 }
-:root{
-  --trojan-pro-3:"Trajan-pro-3-regular";
---color-green:rgb(101, 196, 102);
---color-white:white;
-font-size: 13px;
-font-family: "mulish";
+:root {
+  --trojan-pro-3: "Trajan-pro-3-regular";
+  --color-green: rgb(101, 196, 102);
+  --color-white: white;
+  --color-dark-grey: #414141;
+
+  font-size: 13px;
+  font-family: "mulish";
 }
 
-.wrapper-page{
-  padding: 0.5rem 1.5rem ;
+.wrapper-page {
+  padding: 0.5rem 1.5rem;
 }
-.hiden{
+.hiden {
   display: none;
 }
-.overflow{
+.overflow {
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis; }
-  
-  .uppercase{
-    text-transform: uppercase;
-  }
+  text-overflow: ellipsis;
+}
 
-  .column{
-    display: flex;
-    flex-direction: column;
-  }
+.uppercase {
+  text-transform: uppercase;
+}
 
-  .text-align-left{
-    text-align: left;
-  }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
-  /* .bg-green{
+.text-align-left {
+  text-align: left;
+}
+
+/* .bg-green{
     background: var(--color-green);
   } */
 
-
-  @media screen and (min-width:1336px){
-    :root{
-      font-size: 16px;
-    }
+@media screen and (min-width: 1336px) {
+  :root {
+    font-size: 16px;
   }
-    @media screen and (min-width:1920px){
-    :root{
-      font-size: 23px;
-    }
+}
+@media screen and (min-width: 1920px) {
+  :root {
+    font-size: 23px;
   }
- 
+}
 
-
-   /* @media screen and (min-width:768px) */
-    /* @media screen and (min-width:1024px) */
-     /* @media screen and (min-width:1336px) */
-      /* @media screen and (min-width:1920px) */
+/* @media screen and (min-width:768px) */
+/* @media screen and (min-width:1024px) */
+/* @media screen and (min-width:1336px) */
+/* @media screen and (min-width:1920px) */
