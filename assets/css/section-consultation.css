@@ -162,6 +162,25 @@
   /* margin-bottom: 1rem; */
 }
 
+.personal-data-consent{
+  width: 85%;
+  margin-top: 5px;
+ font-size: 6.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(169, 169, 169);
+}
+
+.link-personal-data-consent{
+color: black;
+text-decoration: underline;
+text-underline-position: under;
+}
+
 @media screen and (min-width:576px) {
   .section-consultation{
     display: flex;
@@ -181,6 +200,18 @@
 
   .wrapper-images-section-consultation{
     order: 2;
+  }
+
+  .btn-submit-section-consultation{
+    margin: 5px auto;
+  }
+
+  .link-personal-data-consent{
+    
+    /* max-width: 200px; */
+  }
+  .personal-data-consent{
+    width: 100%;
   }
   
 }
@@ -220,7 +251,9 @@ width: 30%;
 .input-name-section-consultation::placeholder,.input-tel-section-consultation::placeholder{
 font-size: 1rem;
 }
-
+ .personal-data-consent{
+  font-size: 0.7rem;
+ }
 
 
  }
