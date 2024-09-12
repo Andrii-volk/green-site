@@ -85,7 +85,18 @@
   .wrapper-for-description{
     width: 100%;
   }
+
+  .paragraf-benefits{
+    font-size: 0.9rem;
+
+}
+.header-benefits{
+  font-size: 1.1rem;
+  
+}
+
 .wrapper-benefits-description{
+  width: 23%;
 }
 
 }

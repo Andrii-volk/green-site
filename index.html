@@ -35,7 +35,7 @@
             alt="call"
           />
           <div class="wrapper-header-free-cosult">
-            <a class="hiden header-link-tel" href="tel:+380000000000"
+            <a class="hiden  header-link-tel" href="tel:+380000000000"
               >+38 (000) 000-00-00</a
             >
             <p class="hiden header-free-consultation">
@@ -374,9 +374,11 @@
       </section>
 
       <section class="section-consultation">
-        <div class="section-consultation">
-          <h2 class="header-section-consultation">Юридическая помощь <span class="color-black">начинается с консультации</span></h2>
-
+        <div class="wrapper-for-header-list">
+          <h2 class="header-section-consultation">
+            Юридическая помощь
+            <span class="color-black">начинается с консультации</span>
+          </h2>
           <ul class="list-section-consultation">
             <li class="item-list-section-consultation">
               Заполните форму заявки , что бы получить первую бесплатную
@@ -387,12 +389,39 @@
               консультацию по Вашей ситуации
             </li>
           </ul>
-          <form class="form-section-consultation" action="#" method="POST">
-            <input class="input-name-section-consultation" type="text"  name="name" placeholder="Введите ваше имя" required/>
-            <input class="input-tel-section-consultation" type="tel" name="telefone" placeholder="Введите номер телефона" required />
-           <input class="btn-submit-section-consultation" type="submit">Получить консультацию </input>
-          </form>
-          <img class="image-tel-section-consultations" src="" alt="telefone" />
+        </div>
+
+        <form class="form-section-consultation" action="#" method="POST">
+          <p class="text-for-input-name">Введите Ваше имя</p>
+          <input
+            placeholder="Kriss"
+            class="input-name-section-consultation input-icon-user overflow"
+            type="text"
+            name="name"
+            required
+          />
+          <p class="text-for-input-number">Введите номер телефона</p>
+          <input
+            placeholder="+380"
+            class="input-tel-section-consultation input-icon-tel"
+            type="tel"
+            name="telefone"
+            required
+          />
+
+          <input
+            type="submit"
+            class="btn-submit-section-consultation overflow"
+            type="submit"
+            value="Получить "
+          />
+        </form>
+        <div class="wrapper-images-section-consultation">
+          <img
+            class="image-tel-section-consultations"
+            src="./assets/images/section-cosultations-images/iPhone-image.png"
+            alt="telefone"
+          />
         </div>
       </section>
     </div>
