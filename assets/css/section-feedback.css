@@ -1,10 +1,12 @@
 .section-feedback {text-align: center;
 }
 .header-section-feedback {
+  margin-bottom: 1rem;
     font-family: var(--trojan-pro-3);
   font-size: 1.5rem;
   color: var(--color-green);
   text-align: center;
+
 }
 .paragraf-section-feedback {
   margin-bottom: 40px;
@@ -56,7 +58,6 @@ text-align: left;
 margin-right :10px ;
   float: left;
   width: 37px;
-  border: 1px solid red;
   border-radius: 50%;
 }
 

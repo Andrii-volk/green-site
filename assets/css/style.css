@@ -46,6 +46,10 @@
   text-align: left;
 }
 
+.text-align-centr{
+  text-align: center;
+}
+
 /* .bg-green{
     background: var(--color-green);
   } */
