@@ -8,20 +8,21 @@
   padding-bottom: 20px;
   margin-top: 40px;
   border-radius: 4px;
-  /* height: ; */
   background-image: url(../images/section-for-bisnes-images/or-bisnes-big.png);
- background-color: rgba(101, 196, 102, 0.6);
+  background-color: rgba(101, 196, 102, 0.6);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .wrapper-for-discription-section-for-bisnes {
   position: relative;
   z-index: 3;
+
   min-width: 200px;
-  width: 100%;
   max-width: 450px;
-padding: 1rem;
-border-radius: 7px;
+  width: 100%;
+  padding: 1rem;
+
+  border-radius: 7px;
   background-color: white;
 }
 .header-sectio-for-bisnes {
@@ -36,73 +37,59 @@ border-radius: 7px;
   line-height: normal;
 }
 .btn-call-section-for-bisnes {
-      min-width: 100px;
-    font-family: inherit;
-    font-style: italic;
-        font-weight: 200;
+  min-width: 100px;
+  padding: 8px 18px;
 
-    color: white;
-    padding: 8px 18px;
-    border: none;
-    border-radius: 2.8px;
-    box-shadow: 0 2.2px 8.3px 0 rgba(0, 0, 0, 0.25);
-    background-color: var(--color-green);
+  font-family: inherit;
+  font-style: italic;
+  font-weight: 200;
+
+  color: white;
+  border: none;
+  border-radius: 2.8px;
+  box-shadow: 0 2.2px 8.3px 0 rgba(0, 0, 0, 0.25);
+  background-color: var(--color-green);
 }
 
-.clip-path{
-  position: absolute; 
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-green);
-  opacity: 57%;
-  z-index: 1;
-
- clip-path: polygon(0 0, 38% 0, 79% 100%, 0% 100%);
-
-
+.clip-path {
+  position: absolute;
   top: 0;
   left: 0;
- 
-  /* border-left: 300px solid rgba(0, 255, 0, 0.5); */
-   /* Полупрозрачный зелёный цвет */
-  /* border-bottom: 300px solid transparent; */
+  z-index: 1;
 
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--color-green);
+  opacity: 57%;
+
+  clip-path: polygon(0 0, 38% 0, 79% 100%, 0% 100%);
 }
 
-
-
-
-
-@media screen and (min-width:768px) {
-  .wrapper-for-discription-section-for-bisnes{
+@media screen and (min-width: 768px) {
+  .wrapper-for-discription-section-for-bisnes {
     width: 45%;
-    /* background-color: aqua; */
   }
   .btn-call-section-for-bisnes {
     width: 70%;
   }
 }
 
-@media screen and (min-width:1024px) {
-
-  .wrapper-for-discription-section-for-bisnes{
+@media screen and (min-width: 1024px) {
+  .wrapper-for-discription-section-for-bisnes {
     width: 35%;
-
   }
-
 }
 
-@media screen and (min-width:1336px) {
-
-.wrapper-for-discription-section-for-bisnes{
-  width: 30%;
-}
-  
+@media screen and (min-width: 1336px) {
+  .wrapper-for-discription-section-for-bisnes {
+    width: 30%;
+  }
 }
 
-@media screen and (min-width:1920px) {
-.wrapper-for-discription-section-for-bisnes{
-  width: 30%;
-  max-width: 520px;
-}
+@media screen and (min-width: 1920px) {
+  .wrapper-for-discription-section-for-bisnes {
+    width: 30%;
+    max-width: 520px;
+  }
 }

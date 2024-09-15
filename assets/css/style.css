@@ -1,21 +1,13 @@
-/* --greyish-brown: #414141;
-  --white: #fff;
-  --pinkish-grey: #c2c2c2;
-  --greyish: #a3a3a3;
-  --soft-green: #65c466;
-  --brownish-grey: #696969;
-  --warm-grey: #9d9d9d;
-  --dark: #243246; */
-
 * {
   box-sizing: border-box;
 }
+
 :root {
-  /* color-scheme: light dark; */
   --trojan-pro-3: "Trajan-pro-3-regular";
   --color-green: rgb(101, 196, 102);
   --color-white: white;
   --color-dark-grey: #414141;
+  --line-height-normal: normal;
 
   font-size: 13px;
   font-family: "mulish";
@@ -24,9 +16,11 @@
 .wrapper-page {
   padding: 0.5rem 1.5rem;
 }
+
 .hiden {
   display: none;
 }
+
 .overflow {
   overflow: hidden;
   white-space: nowrap;
@@ -46,19 +40,16 @@
   text-align: left;
 }
 
-.text-align-centr{
+.text-align-centr {
   text-align: center;
 }
-
-/* .bg-green{
-    background: var(--color-green);
-  } */
 
 @media screen and (min-width: 1336px) {
   :root {
     font-size: 16px;
   }
 }
+
 @media screen and (min-width: 1920px) {
   :root {
     font-size: 23px;

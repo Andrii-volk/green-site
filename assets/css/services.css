@@ -6,34 +6,36 @@
 
   margin-top: 2rem;
 }
+
 .header-section-service {
   margin-bottom: 1.4rem;
+
   font-family: var(--trojan-pro-3);
   font-size: 1.9rem;
   line-height: normal;
   color: var(--color-green);
   font-weight: 500;
-  letter-spacing: 0%;
   text-align: center;
 }
+
 .discription-section-service {
   margin-bottom: 40px;
   color: rgb(65, 65, 65);
   font-family: Mulish;
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0%;
   text-align: center;
   line-height: normal;
 }
+
 .renovation-services-provided {
   width: 210px;
 
-  /* height: 320px; */
   padding-top: 180px;
   padding-left: 6px;
   padding-right: 6px;
   margin: 28px auto;
+
   border-radius: 5px;
 
   box-shadow: 0px 2.11px 15.86px 0px rgba(0, 0, 0, 0.25);
@@ -55,12 +57,14 @@
   font-size: 17.63px;
   font-weight: 500;
   line-height: 21px;
-  letter-spacing: 0%;
+  /* letter-spacing: 0%; */
   text-align: center;
 }
+
 .discription-services-provided {
   margin-top: 8px;
   margin-bottom: 40px;
+
   color: rgb(255, 255, 255);
   font-family: Roboto;
   font-size: 11px;
@@ -68,34 +72,38 @@
   line-height: 13px;
   text-align: left;
 }
+
 .btn-more-details {
   display: block;
+  max-width: 150px;
+  min-width: 70px;
+  width: 100px;
   padding: 3px;
   margin: 15px auto;
-  width: 100px;
-  min-width: 70px;
-  max-width: 150px;
+
   color: white;
   font-family: Roboto;
   font-size: 10.58px;
   font-weight: 400;
   line-height: 12px;
-  letter-spacing: 0%;
   text-align: center;
 }
 
 .wrapper-scroll-indicator {
   text-align: center;
 }
+
 .scroll-indicator {
   display: inline-block;
-  margin-left: 7px;
   width: 27px;
   height: 3px;
+  margin-left: 7px;
+
   border-radius: 1.66px;
 
   background: rgb(232, 226, 213);
 }
+
 .bg-green {
   display: inline-block;
   width: 27px;
@@ -107,21 +115,20 @@
 .wrapper-nav-arrow {
   display: flex;
   justify-content: center;
-  margin-top: 36px;
   gap: 30px;
+  margin-top: 36px;
 }
+
 .nav-arrow {
-  padding: 0;
   height: 24.83px;
+  padding: 0;
   border-radius: 27px;
-}
-.nav-arrow {
-  /* margin-left: 30px; */
 }
 
 .building-services-provided {
   display: none;
 }
+
 .courses-services-provided {
   display: none;
 }
@@ -132,26 +139,21 @@
   }
 
   .wrapper-nav-arrow {
+    position: absolute;
     right: 0;
     left: 0px;
     bottom: 35%;
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-end; */
     margin: 0 5px;
   }
+
   .nav-arrow {
     margin: 0;
     align-self: flex-start;
   }
 
   .building-services-provided {
-    /* min-width: 170px; */
-    /* height: 255px; */
-    /* padding-top: 110px; */
-    /* width: 100%; */
-    /* height: 100%; */
     padding-top: 23%;
     padding-left: 6px;
     padding-right: 6px;
@@ -171,9 +173,6 @@
   }
 
   .courses-services-provided {
-    /* min-width: 170px; */
-    /* height: 255px; */
-    /* padding-top: 110px; */
     padding-top: 23%;
     padding-left: 6px;
     padding-right: 6px;
@@ -195,6 +194,7 @@
   .scroll-indicator {
     margin-left: 9px;
   }
+
   .scroll-indicator,
   .bg-green {
     width: 35px;
@@ -204,19 +204,15 @@
   .courses-services-provided {
     display: inline-block;
     width: 25%;
-
-    /* height: 260px; */
   }
 
   .renovation-services-provided {
-    padding-top: 27%;
-    width: 25%;
-    /* min-width: 190px; */
-    /* height: 300px; */
-    margin: 0;
     display: inline-block;
+    width: 25%;
 
-    /* transform: translateY(-40px); */
+    padding-top: 27%;
+
+    margin: 0;
   }
 
   .wrapper-service-provided {
@@ -227,7 +223,6 @@
     padding: 0 10px;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    /* width: 70%; */
   }
 }
 
@@ -239,24 +234,41 @@
   font-size: 16px;
 }
 
-/* .nav-arrow-right>svg{
-  width: 35px;
-  height: 35px;
-} */
-
 .nav-arrow ~ svg {
   width: 35px;
   height: 35px;
 }
 
 @media screen and (min-width: 1024px) {
-  .wrapper-nav-arrow {
-    /* margin: 0 10%; */
-  }
 }
 
 @media screen and (min-width: 1336px) {
-  .wrapper-nav-arrow {
-    /* margin: 0 20%; */
+  .discription-services-provided {
+    font-size: 1.1rem;
+  }
+
+  .header-services-provided {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  .discription-services-provided {
+    line-height: 23px;
+  }
+
+  .btn-more-details {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 15px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .discription-services-provided {
+    line-height: 35px;
+  }
+
+  .header-services-provided {
+    margin-bottom: 2rem;
   }
 }

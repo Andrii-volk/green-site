@@ -1,6 +1,4 @@
-.section-consultation {
-  /* position: relative; */
-}
+
 .header-section-consultation {
   font-family: var(--trojan-pro-3);
   font-size: 1.5rem;
@@ -21,17 +19,16 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  /* color: var( --color-dark-grey); */
   list-style-type: circle;
 }
 .item-list-section-consultation::marker {
-  color: var(--color-green);
   font-size: 1.2rem;
+  color: var(--color-green);
  } 
 
 .form-section-consultation {
-  width: 150px;
   display: inline-block;
+  width: 150px;
   margin-top: 20px;
 }
 .input-name-section-consultation,
@@ -43,9 +40,6 @@
 .input-name-section-consultation {
   width: 100%;
 
-  /* margin-top: 35px; */
-  /* padding-bottom: 33px; */
-  /* padding-bottom: 3px; */
   border: none;
   border-bottom: 1px solid var(--color-green);
 }
@@ -60,8 +54,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  /* color: rgb(169, 169, 169); */
-  /* font-size: ; */
+
 }
 
 .input-name-section-consultation::placeholder {
@@ -73,7 +66,6 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  /* color: rgb(169, 169, 169); */
 }
 
 .input-name-section-consultation {
@@ -83,28 +75,24 @@
 .btn-submit-section-consultation {
   min-width: 100px;
   width: 130px;
-  /* font-family: Mulish; */
+  padding: 6px 9px;
+  margin-top: 20px;
+
   font-size: 10px;
   font-weight: 500;
-  /* height: 25px; */
-  /* flex-grow: 0; */
-  margin-top: 20px;
+
   color: white;
   border: none;
-  padding: 6px 9px;
   border-radius: 3px;
   background-color: var(--color-green);
 }
 
 .wrapper-images-section-consultation {
-  /* position: absolute; */
-  /* bottom:  0; */
-  /* margin-left:; */
+
   display: inline-block;
   transform: translateY(-30px);
   width: 35%;
-  /* width: 123px; */
-  /* height: 247px; */
+
 }
 .image-tel-section-consultations {
   width: 100%;
@@ -112,21 +100,16 @@
 }
 
 .input-icon-tel {
-  /* width: 1%; */
   background: url(../images/section-cosultations-images/tel.png) no-repeat
     bottom left;
-  /* background-position-y: 15px; */
-  /* padding-bottom: 25px; */
+
   padding-left: 20px;
 }
 
 .input-icon-user {
   background: url(../images/section-cosultations-images/user.png) no-repeat
     bottom left;
-  /* padding-left:20px; */
 
-  /* background-position-y: 15px; */
-  /* padding-bottom: 25px; */
   padding-left: 20px;
 }
 .text-for-input-name{
@@ -158,9 +141,7 @@
 .wrapper-form-img{
   margin: 0 auto;
 }
-.wrapper-for-header-list{
-  /* margin-bottom: 1rem; */
-}
+
 
 .personal-data-consent{
   width: 85%;
@@ -206,10 +187,7 @@ text-underline-position: under;
     margin: 5px auto;
   }
 
-  .link-personal-data-consent{
-    
-    /* max-width: 200px; */
-  }
+
   .personal-data-consent{
     width: 100%;
   }
@@ -231,7 +209,6 @@ width: 30%;
 
 .item-list-section-consultation::marker{
   font-size: 1.5rem;
-  /* border: 2px; */
 }
 
 .header-section-consultation{
