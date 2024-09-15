@@ -17,7 +17,6 @@
   font-family: Mulish;
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0%;
   text-align: center;
   line-height: normal;
 
@@ -80,7 +79,7 @@
     position: relative;
     display: inline-block;
     width: 35%;
-    
+
     text-align: left;
     margin-bottom: 2rem;
   }
