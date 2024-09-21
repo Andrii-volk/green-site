@@ -54,7 +54,7 @@
   content: " ";
   position: absolute;
   top: 0;
-  left: -15px;
+  left: -20px;
 
   display: block;
   width: 12px;
@@ -74,13 +74,13 @@
   content: " ";
   position: absolute;
   top: 0;
-  left: -15px;
+  left: -20px;
 
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 10px;
 
-  background-image: url(../images/footer-icons/mail-icon.png);
+  background-image: url(../images/footer-icons/mail.icon.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
